@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro - Loja da Ju</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Crie uma nova conta</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+
+            <p>Preferências de notificação:</p>
+            <label for="notificacaoEmail">
+                <input type="checkbox" id="notificacaoEmail" name="notificacaoEmail"> Receber notificações por email
+            </label>
+            <br>
+            <label for="notificacaoSMS">
+                <input type="checkbox" id="notificacaoSMS" name="notificacaoSMS"> Receber notificações por SMS
+            </label>
+
+            <p>Escolha seu tipo de conta:</p>
+            <label for="tipoContaPessoal">
+                <input type="radio" id="tipoContaPessoal" name="tipoConta" value="pessoal"> Conta Pessoal
+            </label>
+            <br>
+            <label for="tipoContaComercial">
+                <input type="radio" id="tipoContaComercial" name="tipoConta" value="comercial"> Conta Comercial
+            </label>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Minha Loja</p>
+    </footer>
+</body>
+</html>
+
+
+
