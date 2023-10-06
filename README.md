@@ -1,2 +1,2 @@
 # trbtecnologiascomputacionais
-trabanho
+https://majupiter.github.io/trbtecnologiascomputacionais/
